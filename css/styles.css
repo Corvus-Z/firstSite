@@ -1,0 +1,397 @@
+/*Общие стили для документа*/
+html {
+    font-family: "Roboto", "PT Sans", sans-serif;
+    font-size: 16px;
+}
+p {
+    color: rgb(42, 42, 42);
+    line-height: 1.375;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.content{
+    width: 1166px;
+    margin: 0 auto 40px auto;
+}
+/*Конец общих стилей для документа*/
+
+/*Стили заголовков*/
+h1,h2{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+h1{
+    font-size: 32px;  
+    margin-bottom: 40px; 
+}
+h2 {
+    font-size: 32px;
+    line-height: 48px;
+    
+    padding-top: 38px;
+}
+/*Конец стилей заголовков*/
+
+/*About style*/
+.about-wrapper{
+    padding: 30px 0 24px 0;
+}
+.text-about{
+    padding-left: 27px;
+    border-left: 2px solid black;
+    margin: 0 auto;
+    width: 934px;
+}
+strong, b{
+    font-weight: bold;
+}
+/*End of about style*/
+
+/*Contacts style*/
+.contacts-wrapper{
+    background-color: #f5f5f5;
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+.contacts-wrapper .contacts{
+    background-color: white;
+    float: left;
+    width: 479px;
+    height: 307px;
+    padding: 40px 79px 45px 40px;
+}
+.contacts-wrapper .contacts p{
+    font-size: 23px;
+    line-height: 1;
+    margin-bottom: 42px;
+}
+.contacts-wrapper .contacts li a{
+    text-decoration: none;
+    color: black;
+}
+.contacts-wrapper .contacts .underline-li{
+    border-bottom: 1px solid rgba(20, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding-bottom: 23px;
+}
+.adress{
+    line-height: 24px;
+}
+.contacts-wrapper .contacts .social-contacts a{
+    margin-right: 24px;
+}
+/*End of contacts style*/
+
+/*Our team style*/
+.team-wrapper .team img[width]{
+    display: block;
+    border-radius: 50%;
+    float: left;
+    margin-right: 21px;
+}
+.team-wrapper .team li.person{
+    float: left;
+    width: 335px;
+    height: 100px;
+    margin-right: 80px;
+    margin-bottom: 21px;
+}
+.team-wrapper .team li.person:nth-child(3n){
+    margin-right: 0;
+}
+.team-wrapper .team .person-contacts a{
+    font-size: 14px;
+    color: black;
+    line-height: 20px;
+    text-decoration: none;
+    margin-left:10px;
+}
+.team-wrapper .team .person p{
+    line-height: 24px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+/*End of team style*/
+
+/*Header style*/
+.logo {
+    width: 35px;
+    height: 38px;
+    display: block;
+    margin-right: 25px;
+    float: left;
+    background-image: url(/images/logo.svg);
+}
+.logo:hover {
+    opacity: 0.4;
+}
+.main-menu a.link, .footer-main-menu a.link{
+    color: white;
+    float: left;
+    font-size: 18px;
+    margin: 10px 25px 30px 25px;
+    text-decoration: none;
+    line-height: 1.333
+}
+.main-menu a.link:hover, .footer-main-menu a.link:hover{
+    text-decoration: underline;
+    opacity: 0.4;
+}
+.header-wrapper {
+    background-color: #2a2a2a;
+    height: 38px;   
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+.phone-button {
+    margin: 0px 0px 30px 25px;
+    float: right;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    line-height: 38px;
+    width: 163px;
+    height: 38px;
+    text-align: center;
+}
+.phone-button:hover{
+      background-color: white;
+      color: black;
+}
+.phone, .footer-phone {
+    margin: 10px 25px 30px 25px;
+    float: right;
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    text-decoration: none;
+  }
+
+.footer-phone{
+      margin: 0 0 17px 0;
+  }
+
+.phone:hover, .footer-phone:hover{
+    opacity: 0.4;
+  }
+
+.phone img, .footer-phone img{
+      margin-right: 10px;
+}
+/*End of header style*/
+
+/*Flats style*/
+.flat img.flat-photo{
+    display: block;
+    background-color: yellow;
+    height: 220px;
+}
+.flat .price{
+    position: absolute;
+    right: 13px;
+    top: 15px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 14px 16px 14px 16px;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+}
+.flat .desc {
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(42, 42, 42);
+    font-weight: bold;
+    line-height: 1.333;
+    text-align: left;
+    margin: 26px 0px 18px 40px;
+  }
+.flat .params{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(42, 42, 42);
+    line-height: 20px;  
+    margin-left: 40px;   
+}
+.guests{
+    float: left;
+    margin-right: 10px;
+}
+.params img{
+    margin-right: 7px;
+}
+.flats-wrapper {
+    background-color: #f5f5f5;
+    padding-bottom: 1px;
+}
+.flats-wrapper .flats-button, .reviews-wrapper .reviews-button{
+    display: block;
+    text-decoration: none;
+    border: solid black 1px;
+    border-radius: 20px;
+    margin: 18px auto 0px auto;
+    padding: 12px 19px 12px 19px;
+    width: 99px;
+    height: 14px;
+    font-size: 15px;
+    text-align: center;  
+    font-family: "Roboto";
+    color: rgb(42, 42, 42);
+}
+.flats .flat{
+    float: left;
+    margin: 0 15px 30px 15px;
+    width: 368px;
+    height: 365px;
+    background-color: white;
+    position: relative;
+}
+.flats .flat:nth-child(3n+1){
+    margin-left: 0;
+}
+.flats .flat:nth-child(3n){
+    margin-right: 0;
+}
+.navi-bar{
+    width: 59px;
+    height: 9px;
+    margin: 0 auto 40px auto;
+}
+.navi-circle{
+    float: left;
+    margin-right: 16px;
+    border-radius: 50px;
+    width: 9px;
+    height: 9px;
+    background-color: #1b1b1c;
+}
+.navi-circle:last-child{
+    margin-right: 0px;
+}
+/*End of flats style*/
+
+/*Review style*/
+.review .author {
+    font-weight: bold;
+}
+.review {
+    width: 468px;
+    /*height: 140px;*/
+    vertical-align: top;
+    display: inline-block;
+    background-color: #f4efed;
+    padding: 40px 60px 40px 40px;
+    margin: 0px 15px 30px 15px;
+}
+.review:nth-child(2n-1) {
+    margin-left: 0;
+}
+.review:nth-child(2n){
+    margin-right:0;
+}
+.review img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 13px;
+}
+.info p.author{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0px;
+    padding-top: 4px;
+}
+.info p.author{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0px 0px 4px 0;
+}
+/*End of review style*/
+
+/*Footer style*/
+.footer-wrapper {
+    background-color: #2a2a2a;
+    height: 200px;
+    padding-top: 83px;
+}
+.footer .social-contacts a {
+    display: block;
+    background-image: url(/images/icons/contacts.png);
+    margin-right: 30px;
+}
+.footer .social-contacts a:hover {
+    opacity: 0.4;
+}
+.contacts-col{
+    margin-left: 74px;
+}
+.social-contacts li {
+    float: left;
+}
+.footer .social-contacts a.email{
+    width: 16px;
+    height: 13px;
+    background-position: 0px 14px;
+}
+.footer .social-contacts a.vk {
+    width: 22px;
+    height: 12px;
+    background-position: 22px 14px;
+}
+.footer .social-contacts a.fb {
+    width: 14px;
+    height: 14px;
+}
+.footer .social-contacts a.insta {
+    width: 14px;
+    height: 14px;
+    background-position: 22px 0px;
+}
+.line{
+    height: 1px;
+    background-color: #ffffff;
+    opacity: 0.1;
+}
+.line-info li{
+    float: left;
+}
+.location{
+    margin-left: 140px;
+}
+.location li p {
+    color: white;
+}
+.location li img{
+    margin-right: 10px;
+}
+.rules-license li a{
+    font-size: 12px;
+    font-family: "Roboto";
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 1.333;
+    text-align: center;
+}
+.rules-license{
+    margin: 35px auto 0px auto;
+      text-align: center;
+}
+.rules-license li{
+    display: inline-block;
+}
+.rules-license li:first-child{
+    margin-right: 20px;
+}
+/*End of footer style*/  
+  
+.clearfix{
+    clear: both;
+}
+
+
