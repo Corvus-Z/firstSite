@@ -114,6 +114,134 @@ strong, b{
 }
 /*End of team style*/
 
+/*Map style*/
+.map-wrapper{
+    background-color: #f5f5f5;
+    padding-top: 40px;
+}
+.map-wrapper .content{
+    margin-bottom: 0px;
+}
+/*End of map style*/
+
+/*Reservation from style*/
+.form-wrapper{
+    background-color: #f5f5f5;
+    padding-bottom: 30px;
+}
+.form-wrapper .form .request{
+    width: 486px;
+    height: 300px;
+    background-color: white;
+    padding: 40px;
+    margin-left: 600px;
+    margin-bottom: 40px;
+}
+.form-wrapper .form .request div.form-name{
+    text-align: center;
+        font-size: 18px;
+
+    margin-bottom: 28px;
+    font-weight: bold;
+}
+.form-wrapper .form .calendar{
+    width: 488px;
+    background-color: white;
+    padding: 40px;
+    float: left;
+    margin-bottom: 35px;
+}
+
+.form-wrapper .form img[alt="reflection"]{
+    transform: scale(-1);
+}
+.form-wrapper .form .months-navi{
+    text-align: center;
+    margin-bottom: 28px;
+}
+.form-wrapper .form .months-navi div.form-name{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+.form-wrapper .form .months-navi button[value="next"]{
+    float: right;
+}
+.form-wrapper .form .months-navi button[value="previus"]{
+    float: left;
+}
+
+.form-wrapper .weekdays li {
+    display: inline-block;
+    width: 13.5%;
+    font-size: 18px;
+    color: #2a2a2a;
+    text-align: center;
+}
+.form-wrapper .days {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.form-wrapper .days label {
+    display: inline-block;
+    height: 34px;
+    width: 56px;
+    margin: 4px;
+    text-align: center;
+    line-height: 33px;
+    font-size:14px;
+    color: #2a2a2a;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.form-wrapper .form .request label{
+    display: block;
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+.form-wrapper .form .calendar .days input[type="checkbox"]{
+    display: none;
+}
+.form-wrapper .form .calendar .days input[type="checkbox"]:checked + label{
+    border-color: white;
+    background: #2ecc71;
+    color: white;
+    transition: 0.3s;  
+}
+.form-wrapper .days label.active {
+    border-color: white;
+    background: #2ecc71;
+    color: white;
+}
+.form-wrapper .days label.inactive{
+    opacity: 0.2;
+}
+
+.form .request input{
+    margin-bottom: 20px;
+}
+.form .request div.tele{
+    float: left;
+    margin-right: 35px;
+}
+
+.form button.reservation-button{
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid #2a2a2a;
+    width: 157px;
+    height: 38px;
+    border-radius: 20px; 
+    text-align: center;
+    line-height: 36px;
+    margin-left: 43.5%;
+}
+/* End of reservation form style*/
+
+
+
 /*Header style*/
 .logo {
     width: 35px;
@@ -186,6 +314,134 @@ strong, b{
 }
 /*End of header style*/
 
+/*Filters style*/
+.flats-wrapper .filters .room-number-filter button{
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid rgb(42,42,42);
+  opacity: 0.2;
+}
+.flats-wrapper .filters .room-number-filter button:hover{
+    background-color: black;
+    opacity: 1;
+    color: white;
+}
+.flats-wrapper .filters p{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+
+
+.flats-wrapper input[type="date"], .form-wrapper input{
+    padding: 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(42, 42, 42);
+  background-color: #f5f5f5;
+  opacity: 0.2;
+}
+.flats-wrapper input[type="date"]:hover, .form-wrapper input[type="datetime-local"]:hover{
+    opacity: 1;
+
+}
+.flats-wrapper .filters .room-number-filter{
+    width: 222px;
+    margin-left: 350px;
+}
+.flats-wrapper .dates-filter{
+    float: left;
+    width: 323px;
+}
+.flats-wrapper .filters{
+    width: 572px;
+    margin: 0 auto 40px auto;
+}
+/*End of filters style*/
+
+/*Gallery style*/
+.room-info-wrapper{
+    background-color: #f5f5f5;
+}
+.room-info-wrapper .content{
+    margin-bottom: 0px;
+}
+.gallery .big-img img{
+    width: 568px;
+    height: 340px;
+    margin-bottom: 30px;
+}
+.gallery .small-imgs img{
+    width: 269px;
+    height: 160px;
+    display: inline-block;
+}
+.gallery .small-imgs img:nth-child(3n-2){
+    margin-right: 27px;
+}
+.gallery .small-imgs img:nth-child(1), .gallery .small-imgs img:nth-child(2){
+    margin-bottom: 30px;
+}
+.gallery{
+    width: 569px;
+    height: 726px;
+    float: left;
+}
+/*End of gallery style*/
+
+/*Room info style*/
+.room-info{
+    margin-left: 600px;
+    background-color: white;
+    padding: 40px 51px 0px 40px;
+    height: 686px;
+    
+}
+.room-info-wrapper .room-info .day-price{
+    font-size: 18px;
+    opacity: 0.4;
+    margin-bottom: 18px;
+}
+.room-info-wrapper .room-info .room-price{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.room-info-wrapper .room-info .reservation-button{
+    font-size: 15px;
+    display: block;
+    border: 1px solid #2a2a2a;
+    width: 157px;
+    height: 38px;
+    border-radius: 20px; 
+    text-align: center;
+    line-height: 38px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 38px;
+}
+.room-info-wrapper .room-info .room-text{
+    font-size: 18px;
+}
+.room-info-wrapper .room-info .params{
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.room-info-wrapper .room-info .options li{
+    margin-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.room-info-wrapper .room-info .options p{
+    display: inline;
+    font-size: 18px;
+}
+
+
+/*End of room info style*/
+
 /*Flats style*/
 .flat img.flat-photo{
     display: block;
@@ -218,6 +474,9 @@ strong, b{
     color: rgb(42, 42, 42);
     line-height: 20px;  
     margin-left: 40px;   
+}
+.flat a{
+    text-decoration: none;
 }
 .guests{
     float: left;
